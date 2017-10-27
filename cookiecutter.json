@@ -1,0 +1,5 @@
+{
+    "project_name": "Arrested Users API",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "package_name": "{{ cookiecutter.project_slug.lower().replace(' ', '_').replace('-', '_') }}"
+}

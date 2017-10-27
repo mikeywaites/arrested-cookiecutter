@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  api:
+    build: .
+    container_name: {{ cookiecutter.package_name }}
+    image: {{ cookiecutter.package_name }}
+    volumes:
+      - ../{{ cookiecutter.project_slug }}:/opt/code
+    ports:
+      - "8080:8080"
