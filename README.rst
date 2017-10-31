@@ -7,7 +7,7 @@ Arrested Cookie Cutter
 
 -------------------
 
-This is a cookie-cutter for `Arrested https://github.com/mikeywaites/flask-arrested`_. - A Framework for rapidly building REST APIs with Flask.  This cookie-cutter creates a Flask application
+This is a cookie-cutter for `Arrested <https://github.com/mikeywaites/flask-arrested>`_. - A Framework for rapidly building REST APIs with Flask.  This cookie-cutter creates a Flask application
 that exposes a User API to help demonstrate how to use the different components of Arrested.
 
 
@@ -16,11 +16,11 @@ Installation
 
 If you haven't already installed Cookie Cutter then you'll need to do that first.
 
-.. code-block: shell
+.. code-block:: shell
 
     pip install cookiecutter
 
-or read their documentation `here http://cookiecutter.readthedocs.io/en/latest/`_.
+or read their documentation `here <http://cookiecutter.readthedocs.io/en/latest/>`_.
 
 
 🚀 Get started in under a minute..
@@ -34,7 +34,7 @@ Step 1
 Clone the project repo using cookiecutter (run cookiecutter --help for more options when creating the project)
 
 
-.. code-block: shell
+.. code-block:: shell
 
     cookiecutter gh:mikeywaites/arrested-cookiecutter -o arrested-users-api
 
@@ -44,13 +44,13 @@ Step 2
 
 Change to the newly created directory.
 
-.. code-block: shell
+.. code-block:: shell
 
     cd arrested-users-api
 
 The directory should look something like this.
 
-.. code-block: shell
+.. code-block:: shell
 
     .
     └── arrested-users-api
@@ -88,9 +88,9 @@ The directory should look something like this.
 Step 3
 ^^^^^^^^^^
 
-The example ships with a Docker container.  Read more about `Installing https://docs.docker.com/engine/installation/`-. and `Running https://docs.docker.com/get-started/ Docker`_.
+The example ships with a Docker container.  Read more about `Installing <https://docs.docker.com/engine/installation/>`_. and `Running <https://docs.docker.com/get-started/>`_. Docker.
 
-.. code-block: shell
+.. code-block:: shell
 
     docker-compose up api
 
@@ -99,7 +99,7 @@ Step 4
 
 Fire a HTTP request at the Users endpoint of your newly created API.
 
-.. code-block: shell
+.. code-block:: shell
 
     curl -u admin:secret localhost:8080/v1/users | python -m json.tool
 
