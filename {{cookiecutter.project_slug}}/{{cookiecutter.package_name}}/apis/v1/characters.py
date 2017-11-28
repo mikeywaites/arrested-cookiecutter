@@ -1,6 +1,6 @@
 from arrested import Resource
 from arrested.contrib.kim_arrested import KimEndpoint
-from arrested.contrib.sql_alchemy import DBListMixin, DBObjectMixin
+from arrested.contrib.sql_alchemy import DBListMixin, DBObjectMixin, DBCreateMixin
 
 from {{ cookiecutter.package_name }}.models import db, Character
 from .mappers import CharacterMapper
