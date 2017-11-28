@@ -3,7 +3,9 @@ import os
 
 class Config(object):
 
-    pass
+    ALEMBIC_CONTEXT = {
+        'render_as_batch': True
+    }
 
 
 class Dev(Config):
