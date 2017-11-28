@@ -8,7 +8,7 @@ from .mappers import CharacterMapper
 characters_resource = Resource('characters', __name__, url_prefix='/characters')
 
 
-class CharactersIndexEndpoint(KimEndpoint, DBListMixin):
+class CharactersIndexEndpoint(KimEndpoint, DBListMixin, DBCreateMixin):
 
     name = 'list'
     many = True
