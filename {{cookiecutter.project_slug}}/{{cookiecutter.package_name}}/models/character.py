@@ -1,7 +1,5 @@
 from .base import db, BaseMixin
 
-__all__ = ['Character']
-
 
 class Character(BaseMixin, db.Model):
 
